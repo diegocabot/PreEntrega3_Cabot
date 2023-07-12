@@ -7,3 +7,13 @@ $secondary-color: white;
 @mixin text-center {
     text-align: center;
   }
+
+.footer {
+    display: $display-value;
+    flex-direction: $flex-direction-row;
+    @include text-center;
+    max-width: $large-width;
+    height: $small-height;
+    background-color: $secondary-color;
+    border-radius: 10px;
+}

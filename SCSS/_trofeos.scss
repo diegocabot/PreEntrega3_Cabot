@@ -2,3 +2,11 @@ $medium-font-size: x-large;
 @mixin text-center {
     text-align: center;
   }
+
+.trofeos{
+    @include text-center;
+    font-size: $medium-font-size;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+
+}

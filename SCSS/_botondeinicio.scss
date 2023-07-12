@@ -1,3 +1,13 @@
 $medium-font-size: x-large;
 $secondary-color: white;
 $primary-color: black;
+
+.botoninicio{
+    font-size: $medium-font-size;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    padding: 2px;
+    color: $primary-color;
+    text-decoration: none;
+}

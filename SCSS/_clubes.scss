@@ -7,3 +7,13 @@ $justify-content-space-evenly: space-evenly;
 @mixin align-items-center {
     align-items: center;
   }
+
+.clubes{
+    display: $display-value;
+    flex-direction: $flex-direction-row;
+    width: $large-width;
+    height: $small-height;
+    list-style-type: none;
+    justify-content: $justify-content-space-evenly;
+    @include align-items-center;
+}

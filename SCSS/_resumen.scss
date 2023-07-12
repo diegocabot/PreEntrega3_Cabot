@@ -1,5 +1,13 @@
 $display-value: flex;
 $justify-content-center: center;
 @mixin align-items-center {
-    align-items: center;
-  }
+  align-items: center;
+}
+
+.resumen{
+  display: $display-value;
+  justify-content: $justify-content-center;
+  @include align-items-center;
+  padding: 5%;
+  width: 100%;
+}

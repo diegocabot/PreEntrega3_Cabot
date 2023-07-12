@@ -2,3 +2,11 @@ $display-value: flex;
 $flex-direction-row: row;
 $justify-content-flex-end: flex-end;
 $primary-color: black;
+
+.encabezadoPag{
+    display: $display-value;
+    flex-direction: $flex-direction-row;
+    justify-content: $justify-content-flex-end;
+    background-color: $primary-color;
+
+}

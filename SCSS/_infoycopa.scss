@@ -1,3 +1,11 @@
 $display-value: flex;
 $flex-direction-column: column;
 $secondary-color: white;
+
+.infoCopa{
+    display: $display-value;
+    flex-direction: $flex-direction-column;
+    list-style-type: none;
+    color: $secondary-color;
+    padding-bottom: 200px;
+}

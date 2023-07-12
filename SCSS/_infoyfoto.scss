@@ -4,6 +4,19 @@ $justify-content-space-around: space-around;
 $large-width: 100%;
 $primary-color: black;
 $small-height: auto;
+
 @mixin align-items-center {
-    align-items: center;
-  }
+  align-items: center;
+}
+
+.infoYfoto{
+  display: $display-value;
+  flex-direction: $flex-direction-row;
+  @include align-items-center;
+  justify-content: $justify-content-space-around;
+  width: $large-width;
+  background-color: $primary-color;
+  height: $small-height;
+  padding-top: 12%;
+}
+

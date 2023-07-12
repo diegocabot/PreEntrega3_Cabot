@@ -1,3 +1,13 @@
 $display-value: flex;
 $flex-direction-column: column;
 $large-width: 100%;
+
+.encabezadoindex {
+    display: $display-value;
+    flex-direction: $flex-direction-column;
+    width: $large-width;
+    height: 895px;
+    background-image: url(../img/16432291056672.jpeg);
+    background-size: cover;
+    background-position: center;
+}

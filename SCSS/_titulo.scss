@@ -14,3 +14,15 @@ $large-width: 100%;
   }
 
   $tertiary-color: beige;
+
+.titulo {
+    display: $display-value;
+    flex-direction: $flex-direction-column;
+    @include align-items-center;
+    justify-content: $justify-content-center;
+    width: $large-width;
+    @extend %button;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: $tertiary-color;
+    font-size: xx-large;
+}

@@ -1,2 +1,10 @@
 $display-value: flex;
 $justify-content-flex-end: flex-end;
+
+.foto{
+    display: $display-value;
+    justify-content: $justify-content-flex-end;
+    align-self: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 570px;
+}
