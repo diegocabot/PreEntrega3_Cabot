@@ -156,7 +156,7 @@ $medium-font-size: x-large;
     justify-content: $justify-content-center;
     @include align-items-center;
     padding: 5%;
-    width: $large-width;
+    width: 100%;
 }
 .texto{
     @include text-center;
@@ -210,7 +210,7 @@ $medium-font-size: x-large;
 
     .resumen{
         flex-direction: $flex-direction-column;
-        width:$large-width;
+        width: 100%;
     }
     .texto{
         padding-bottom: 8%;
