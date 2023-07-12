@@ -144,7 +144,7 @@
     width: 70%;
 }
 
-@media (min-width:0px) and (max-width:576px) {
+@media (max-width:576px) {
     .encabezadoindex{
         display: flex;
         width: 100%;
@@ -167,8 +167,7 @@
         justify-content: flex-end;
         height: auto;
     }
-    .infoCopa{
-    }
+
     .foto{
         max-width: 100%;
     }
