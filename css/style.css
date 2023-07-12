@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbit&display=swap");
+.titulo {
+  height: 368px;
+  padding-left: 500px;
+  padding-top: 88px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,9 +38,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 368px;
-  padding-left: 500px;
-  padding-top: 88px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: beige;
   font-size: xx-large;
@@ -134,7 +137,7 @@
   justify-content: center;
   align-items: center;
   padding: 5%;
-  width: 100%;
+  width: medium;
 }
 
 .texto {
@@ -158,7 +161,6 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    text-align: center;
     padding-left: 0px;
   }
   .infoYfoto {
@@ -184,7 +186,7 @@
   }
   .resumen {
     flex-direction: column;
-    width: 100%;
+    width: medium;
   }
   .texto {
     padding-bottom: 8%;

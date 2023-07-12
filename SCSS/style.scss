@@ -156,11 +156,11 @@ $medium-font-size: x-large;
     justify-content: $justify-content-center;
     @include align-items-center;
     padding: 5%;
-    width: medium;
+    width: $large-width;
 }
 .texto{
     @include text-center;
-    font-size: $medium-font-size;;
+    font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
     width: $large-width;
@@ -179,7 +179,6 @@ $medium-font-size: x-large;
         display: $display-value;
         justify-content: $justify-content-center;
         align-items: end;
-        text-align: $text-align-value;
         padding-left: 0px;
 
 
@@ -211,7 +210,7 @@ $medium-font-size: x-large;
 
     .resumen{
         flex-direction: $flex-direction-column;
-        width: medium;
+        width:$large-width;
     }
     .texto{
         padding-bottom: 8%;
