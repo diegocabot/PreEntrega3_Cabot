@@ -1,0 +1,43 @@
+
+@media (max-width:576px) {
+    .encabezadoindex{
+        display: $display-value;
+        width: $large-width;
+        background-image: url(../img/16432291056672.jpeg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .foto{
+        max-width: $large-width;
+    }
+    .infoYfoto{
+        flex-direction: $flex-direction-column;
+        justify-content: $justify-content-flex-end;
+        height: $small-height;
+      }
+      .infoYJpg{
+        flex-direction: $flex-direction-column;
+    }
+    .referencia{
+        font-size: 25px;
+        color: $primary-color;
+    }
+    .resumen{
+        flex-direction: $flex-direction-column;
+        width: 100%;
+    }
+    .texto{
+        padding-bottom: 8%;
+    }
+    .titulo{
+        display: $display-value;
+        justify-content: $justify-content-center;
+        align-items: end;
+        padding-left: 0px;
+      
+      }
+    .video{
+        max-width: $large-width;
+    }
+}

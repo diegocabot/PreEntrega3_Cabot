@@ -9,16 +9,6 @@
   background-position: center;
 }
 
-@media (max-width: 576px) {
-  .encabezadoindex {
-    display: flex;
-    width: 100%;
-    background-image: url(../img/16432291056672.jpeg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-}
 .redes {
   display: flex;
   flex-direction: row;
@@ -43,14 +33,6 @@
   font-size: xx-large;
 }
 
-@media (max-width: 576px) {
-  .titulo {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-left: 0px;
-  }
-}
 .clubes {
   display: flex;
   flex-direction: row;
@@ -68,12 +50,6 @@
   color: black;
 }
 
-@media (max-width: 576px) {
-  .referencia {
-    font-size: 25px;
-    color: black;
-  }
-}
 .encabezadoPag {
   display: flex;
   flex-direction: row;
@@ -106,13 +82,6 @@
   padding-top: 12%;
 }
 
-@media (max-width: 576px) {
-  .infoYfoto {
-    flex-direction: column;
-    justify-content: flex-end;
-    height: auto;
-  }
-}
 .infoCopa {
   display: flex;
   flex-direction: column;
@@ -143,11 +112,6 @@
   height: 570px;
 }
 
-@media (max-width: 576px) {
-  .foto {
-    max-width: 100%;
-  }
-}
 .resumen {
   display: flex;
   justify-content: center;
@@ -156,12 +120,6 @@
   width: 100%;
 }
 
-@media (max-width: 576px) {
-  .resumen {
-    flex-direction: column;
-    width: 100%;
-  }
-}
 .texto {
   text-align: center;
   font-size: medium;
@@ -171,10 +129,60 @@
 }
 
 @media (max-width: 576px) {
+  .encabezadoindex {
+    display: flex;
+    width: 100%;
+    background-image: url(../img/16432291056672.jpeg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .foto {
+    max-width: 100%;
+  }
+  .infoYfoto {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+  }
+  .infoYJpg {
+    flex-direction: column;
+  }
+  .referencia {
+    font-size: 25px;
+    color: black;
+  }
+  .resumen {
+    flex-direction: column;
+    width: 100%;
+  }
   .texto {
     padding-bottom: 8%;
   }
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 0px;
+  }
+  .video {
+    max-width: 100%;
+  }
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
