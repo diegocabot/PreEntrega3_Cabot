@@ -1,10 +1,9 @@
 $display-value: flex;
 $flex-direction-row: row;
-$justify-content-end: end;
 
 .redes {
     display: $display-value;
     flex-direction: $flex-direction-row;
-    justify-content: $justify-content-end;
+    justify-content: end;
     list-style-type: none;
 }
