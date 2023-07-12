@@ -1,0 +1,5 @@
+$display-value: flex;
+$justify-content-center: center;
+@mixin align-items-center {
+    align-items: center;
+  }

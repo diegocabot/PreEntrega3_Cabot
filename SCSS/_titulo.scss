@@ -1,0 +1,16 @@
+$display-value: flex;
+$flex-direction-column: column;
+$justify-content-center: center;
+$large-width: 100%;
+
+@mixin align-items-center {
+    align-items: center;
+  }
+
+  %button {
+    height: 368px;
+    padding-left: 500px;
+    padding-top: 88px;
+  }
+
+  $tertiary-color: beige;

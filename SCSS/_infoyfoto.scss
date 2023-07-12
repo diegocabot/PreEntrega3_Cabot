@@ -1,0 +1,9 @@
+$display-value: flex;
+$flex-direction-row: row;
+$justify-content-space-around: space-around;
+$large-width: 100%;
+$primary-color: black;
+$small-height: auto;
+@mixin align-items-center {
+    align-items: center;
+  }

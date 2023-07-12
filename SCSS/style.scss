@@ -1,32 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbit&display=swap');
+@import "encabezadoindex";
+@import "redes";
+@import "titulo";
+@import "clubes";
+@import "referencia";
+@import "encabezadoPag";
+@import "botonInicio";
+@import "botondeinicio";
+@import "infoyfoto";
+@import "infoycopa";
+@import "club";
+@import "trofeos";
+@import "foto";
+@import "resumen";
+@import "texto";
 
-$display-value: flex;
-$flex-direction-row: row;
-$flex-direction-column: column;
-$primary-color: black;
-$secondary-color: white;
-$tertiary-color: beige;
-$large-width: 100%;
-$justify-content-flex-end: flex-end;
-$justify-content-center: center;
-$justify-content-space-evenly: space-evenly;
-$justify-content-end: end;
-$justify-content-space-around: space-around;
-$small-height: auto;
-$medium-font-size: x-large;
-
-@mixin text-center {
-    text-align: center;
-  }
-@mixin align-items-center {
-    align-items: center;
-  }
-
-  %button {
-    height: 368px;
-    padding-left: 500px;
-    padding-top: 88px;
-  }
 * {
     margin: 0;
     padding: 0;

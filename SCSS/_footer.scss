@@ -1,0 +1,9 @@
+$display-value: flex;
+$flex-direction-row: row;
+$large-width: 100%;
+$small-height: auto;
+$secondary-color: white;
+
+@mixin text-center {
+    text-align: center;
+  }

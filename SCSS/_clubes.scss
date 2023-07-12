@@ -1,0 +1,9 @@
+$display-value: flex;
+$flex-direction-row: row;
+$small-height: auto;
+$large-width: 100%;
+$justify-content-space-evenly: space-evenly;
+
+@mixin align-items-center {
+    align-items: center;
+  }
