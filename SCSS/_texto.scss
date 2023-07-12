@@ -9,3 +9,9 @@
     margin: auto;
     width: 70%;
 }
+
+@media (max-width:576px) {
+  .texto{
+    padding-bottom: 8%;
+}
+}

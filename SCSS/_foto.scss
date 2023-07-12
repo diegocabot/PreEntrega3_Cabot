@@ -8,3 +8,9 @@ $justify-content-flex-end: flex-end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 570px;
 }
+
+@media (max-width:576px) {
+    .foto{
+        max-width: $large-width;
+    }
+}

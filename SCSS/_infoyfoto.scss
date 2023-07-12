@@ -20,3 +20,10 @@ $small-height: auto;
   padding-top: 12%;
 }
 
+@media (max-width:576px) {
+.infoYfoto{
+  flex-direction: $flex-direction-column;
+  justify-content: $justify-content-flex-end;
+  height: $small-height;
+}
+}

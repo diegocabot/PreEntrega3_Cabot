@@ -11,3 +11,10 @@ $justify-content-center: center;
   padding: 5%;
   width: 100%;
 }
+
+@media (max-width:576px) {
+  .resumen{
+    flex-direction: $flex-direction-column;
+    width: 100%;
+}
+}

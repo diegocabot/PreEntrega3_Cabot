@@ -26,3 +26,14 @@ $large-width: 100%;
     color: $tertiary-color;
     font-size: xx-large;
 }
+
+@media (max-width:576px) {
+.titulo{
+  display: $display-value;
+  justify-content: $justify-content-center;
+  align-items: end;
+  padding-left: 0px;
+
+}
+
+}

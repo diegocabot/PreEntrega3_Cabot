@@ -1,0 +1,6 @@
+$large-width: 100%;
+@media (max-width:576px) {
+    .video{
+        max-width: $large-width;
+    }
+}

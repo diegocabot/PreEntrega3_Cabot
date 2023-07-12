@@ -11,3 +11,14 @@ $large-width: 100%;
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width:576px) {
+    .encabezadoindex{
+        display: $display-value;
+        width: $large-width;
+        background-image: url(../img/16432291056672.jpeg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
