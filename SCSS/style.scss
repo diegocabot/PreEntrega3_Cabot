@@ -7,8 +7,6 @@ $primary-color: black;
 $secondary-color: white;
 $tertiary-color: beige;
 $large-width: 100%;
-$text-align-value: center;
-$align-items-value: center;
 $justify-content-flex-end: flex-end;
 $justify-content-center: center;
 $justify-content-space-evenly: space-evenly;
@@ -17,6 +15,18 @@ $justify-content-space-around: space-around;
 $small-height: auto;
 $medium-font-size: x-large;
 
+@mixin text-center {
+    text-align: center;
+  }
+@mixin align-items-center {
+    align-items: center;
+  }
+
+  %button {
+    height: 368px;
+    padding-left: 500px;
+    padding-top: 88px;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -46,12 +56,10 @@ $medium-font-size: x-large;
 .titulo {
     display: $display-value;
     flex-direction: $flex-direction-column;
-    align-items: $align-items-value;
+    @include align-items-center;
     justify-content: $justify-content-center;
     width: $large-width;
-    height: 368px;
-    padding-left: 500px;
-    padding-top: 88px;
+    @extend %button;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: $tertiary-color;
     font-size: xx-large;
@@ -60,7 +68,7 @@ $medium-font-size: x-large;
 .footer {
     display: $display-value;
     flex-direction: $flex-direction-row;
-    text-align: $text-align-value;
+    @include text-center;
     max-width: $large-width;
     height: $small-height;
     background-color: $secondary-color;
@@ -74,7 +82,7 @@ $medium-font-size: x-large;
     height: $small-height;
     list-style-type: none;
     justify-content: $justify-content-space-evenly;
-    align-items: $align-items-value;
+    @include align-items-center;
 }
 
 .referencia{
@@ -106,7 +114,7 @@ $medium-font-size: x-large;
 .infoYfoto{
     display: $display-value;
     flex-direction: $flex-direction-row;
-    align-items: $align-items-value;
+    @include align-items-center;
     justify-content: $justify-content-space-around;
     width: $large-width;
     background-color: $primary-color;
@@ -123,14 +131,14 @@ $medium-font-size: x-large;
 }
 
 .club{
-    text-align: $text-align-value;
+    @include text-center;
     font-size: $medium-font-size;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 25px;
 }
 
 .trofeos{
-    text-align: $text-align-value;
+    @include text-center;
     font-size: $medium-font-size;;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 15px;
@@ -146,12 +154,12 @@ $medium-font-size: x-large;
 .resumen{
     display: $display-value;
     justify-content: $justify-content-center;
-    align-items: $align-items-value;
+    @include align-items-center;
     padding: 5%;
-    width: $large-width;
+    width: medium;
 }
 .texto{
-    text-align: $text-align-value;
+    @include text-center;
     font-size: $medium-font-size;;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
@@ -203,7 +211,7 @@ $medium-font-size: x-large;
 
     .resumen{
         flex-direction: $flex-direction-column;
-        width: $large-width;
+        width: medium;
     }
     .texto{
         padding-bottom: 8%;
