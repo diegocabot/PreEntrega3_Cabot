@@ -33,6 +33,20 @@
   font-size: xx-large;
 }
 
+.clubes::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  transition: all 0.6;
+}
+
+.clubes:hover::after {
+  width: 100%;
+  background-color: white;
+}
+
 .clubes {
   display: flex;
   flex-direction: row;

@@ -3,9 +3,22 @@ $flex-direction-row: row;
 $small-height: auto;
 $large-width: 100%;
 $justify-content-space-evenly: space-evenly;
+$secondary-color: white;
 
 @mixin align-items-center {
     align-items: center;
+  }
+.clubes::after {
+  content:"";
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  transition:all 0.6 ;
+}
+.clubes:hover::after {
+  width: $large-width;
+  background-color: $secondary-color;
   }
 
 .clubes{
