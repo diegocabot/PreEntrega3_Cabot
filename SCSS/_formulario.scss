@@ -3,9 +3,8 @@ $input-border-color: #ddd;
 $input-bg-color: #f7f7f7;
 $input-padding: 10px;
 $form-width: 300px;
-$form-title-color: #333;
-$form-title-font-size: 24px;
-$form-title-margin: 20px 0;
+$medium-font-size: x-large;
+$primary-color: black;
 @mixin text-center {
   text-align: center;
 }
@@ -50,9 +49,8 @@ $form-title-margin: 20px 0;
     }
 
 .form-title {
-      color: $form-title-color;
-      font-size: $form-title-font-size;
-      margin: $form-title-margin;
       @include text-center;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: $medium-font-size;
+      color:$primary-color;
     }
