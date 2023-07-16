@@ -243,6 +243,12 @@
   .video {
     max-width: 100%;
   }
+  .clubes {
+    flex-direction: column;
+    padding-bottom: 5px;
+    background-color: white;
+    padding-top: 8px;
+  }
 }
 .footer {
   display: flex;
