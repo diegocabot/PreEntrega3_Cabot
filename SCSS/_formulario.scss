@@ -1,0 +1,45 @@
+$form-border-color: #ccc;
+    $input-border-color: #ddd;
+    $input-bg-color: #f7f7f7;
+    $input-padding: 10px;
+
+    $form-width: 300px;
+
+    .form-container {
+      width: $form-width;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: $input-padding;
+      border: 1px solid $input-border-color;
+      background-color: $input-bg-color;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: darken($input-border-color, 10%);
+    }
+
+    .form-submit {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-submit:hover {
+      background-color: darken(#333, 10%);
+    }
