@@ -3,6 +3,9 @@ $input-border-color: #ddd;
 $input-bg-color: #f7f7f7;
 $input-padding: 10px;
 $form-width: 300px;
+$form-title-color: #333;
+$form-title-font-size: 24px;
+$form-title-margin: 20px 0;
 
     .form-container {
       width: $form-width;
@@ -41,4 +44,9 @@ $form-width: 300px;
 
     .form-submit:hover {
       background-color: darken(#333, 10%);
+    }
+    .form-title {
+      color: $form-title-color;
+      font-size: $form-title-font-size;
+      margin: $form-title-margin;
     }
