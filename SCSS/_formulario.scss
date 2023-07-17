@@ -9,34 +9,34 @@ $primary-color: black;
   text-align: center;
 }
 
-.form-container {
+.formulario-contenedor {
       width: $form-width;
       margin: 0 auto;
     }
 
-.form-group {
+.formulario-grupo {
       margin-bottom: 20px;
     }
 
-.form-label {
+.formulario-label {
       display: block;
       margin-bottom: 5px;
       font-weight: bold;
     }
 
-.form-input {
+.formulario-input {
       width: 100%;
       padding: $input-padding;
       border: 1px solid $input-border-color;
       background-color: $input-bg-color;
     }
 
-.form-input:focus {
+.formulario-input:focus {
       outline: none;
       border-color: darken($input-border-color, 10%);
     }
 
-.form-submit {
+.formulario-enviar {
       padding: 10px 20px;
       background-color: #333;
       color: #fff;
@@ -44,11 +44,11 @@ $primary-color: black;
       cursor: pointer;
     }
 
-.form-submit:hover {
+.form-enviar:hover {
       background-color: darken(#333, 10%);
     }
 
-.form-title {
+.form-titulo {
       @include text-center;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: $medium-font-size;
